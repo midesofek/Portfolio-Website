@@ -1,15 +1,12 @@
-function Logo() {
-  return <div></div>;
-}
+import Button from "./Button";
+import Navbar from "./Navbar";
 
 function Header() {
   return (
     <header className="bg-white shadow-md p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <img src="/logo.svg" alt="Logo" className="h-8" />
-        <button className="bg-brand-blue text-white px-4 py-2 rounded">
-          Button
-        </button>
+        <Navbar className=" h-8" />
+        <Button>Say Hello 👋</Button>
       </div>
     </header>
   );
