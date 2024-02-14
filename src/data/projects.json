@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "projectName": "SwiftPay Finance",
+    "projectDescription": "A multi-chain payroll, payments and invoice processing application",
+    "url": "https://www.swiftpayapp.xyz/",
+    "githubUrl": "https://github.com/Demeter-Lab/Swiftpay-Frontend",
+    "image": ""
+  },
+  {
+    "id": 2,
+    "projectName": "Rendevous",
+    "projectDescription": "A multi-chain payroll, payments and invoice processing application",
+    "url": "https://www.rendevous.site/",
+    "githubUrl": "https://github.com/midesofek/rendevous-data-stream",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "projectName": "Web3 Quiz API",
+    "projectDescription": "A full scale API for building authenticated Web3 quiz applications, built with Javascript, Nodejs, Express and MongoDB",
+    "url": "https://github.com/midesofek/Web3-Quiz-API",
+    "githubUrl": "https://github.com/midesofek/Web3-Quiz-API",
+    "image": ""
+  }
+]
