@@ -4,12 +4,12 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow-md">
+    <nav className="bg-white">
       <div className="container mx-auto flex justify-between items-center py-4">
         {/* Navigation Links */}
         <ul className=" font-medium flex space-x-4">
           <NavItem href="/">Home</NavItem>
-          <NavItem href="/about">About Me</NavItem>
+          {/* <NavItem href="/about">About Me</NavItem> */}
           <NavItem href="/projects">Projects</NavItem>
           <Link href="https://blog.midesofek.com" target="_blank">
             My Blog

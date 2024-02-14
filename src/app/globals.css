@@ -31,3 +31,40 @@ body {
     text-wrap: balance;
   }
 }
+
+.animContainer {
+  display: inline-block;
+  margin: auto;
+}
+
+.animatetext {
+  font-size: 1.075rem;
+  letter-spacing: 1px;
+  font-family: monospace;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+
+  animation: typing 2s steps(26), cursor 0.6s step-end infinite alternate;
+}
+
+/**cursor blinking */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .animatetext {
+    max-width: 100%; /* Set maximum width for smaller screens */
+    word-wrap: break-word;
+  }
+}
